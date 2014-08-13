@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
+  s.source   = { :git => 'ssh://gerrit.instructure.com:29418/canvasdata-ios', :tag => 'v0.0.1' }
   s.source_files  = "CanvasData", "CanvasData/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
 
   s.resource  = "CanvasData/Model/CANDModel.xcdatamodeld"
   s.requires_arc = true
