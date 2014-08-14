@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors  = { 'Derrick Hathaway' => 'derr@me.com' }
   s.source   = { :git => 'ssh://gerrit.instructure.com:29418/canvaskeymaster-ios', :tag => '0.5.0' }
   s.source_files = 'CanvasKeymaster/**/*.{h,m}'
-  s.resources = 'CanvasKeymaster/**/*.{storyboard}','CanvasKeymaster/**/*.{png}'
+  s.resources = 'CanvasKeymaster/**/*.{storyboard}','CanvasKeymaster/**/*.{png}', 'CanvasKeymaster/**/*.{json}'
   s.requires_arc = true
 
   s.ios.deployment_target = '7.0'
