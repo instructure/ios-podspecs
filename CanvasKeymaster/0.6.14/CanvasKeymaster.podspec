@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaLumberjack', '~> 1.9.1'
   s.dependency 'FXKeychain'
   s.dependency 'GoogleAnalytics-iOS-SDK', '~> 3.0.1'
-e
+
 end
